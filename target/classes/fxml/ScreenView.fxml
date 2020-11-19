@@ -5,7 +5,7 @@
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: whitw;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ScreenViewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ScreenViewController">
     <children>
         <JFXPasswordField fx:id="password" labelFloat="true" layoutX="207.0" layoutY="160.0" promptText="Password" AnchorPane.bottomAnchor="215.0" AnchorPane.leftAnchor="207.0" AnchorPane.rightAnchor="258.0" AnchorPane.topAnchor="160.0" />
         <JFXTextField fx:id="user" focusColor="BLACK" labelFloat="true" layoutX="207.0" layoutY="99.0" promptText="User" />
