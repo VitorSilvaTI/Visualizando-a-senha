@@ -10,6 +10,11 @@ import javafx.scene.image.ImageView;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ *
+ * @author Vitor da Silva
+ */
+
 public class ScreenViewController implements Initializable {
 
     @FXML
