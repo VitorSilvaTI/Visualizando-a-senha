@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author Vitor da Silva
+ * @author Vitor da Silva Nascimento
  */
 
 public class ScreenViewController implements Initializable {
