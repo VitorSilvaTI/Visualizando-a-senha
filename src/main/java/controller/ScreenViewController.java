@@ -1,6 +1,4 @@
 package controller;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.Initializable;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
@@ -17,14 +15,11 @@ import java.util.ResourceBundle;
 
 public class ScreenViewController implements Initializable {
 
-    @FXML
-    private JFXPasswordField password;
+    @FXML private JFXPasswordField password;
 
-    @FXML
-    private ToggleButton btnView;
+    @FXML private ToggleButton btnView;
 
-    @FXML
-    private JFXTextField passwordView;
+    @FXML private JFXTextField passwordView;
 
 
     public void initialize(URL location, ResourceBundle resources) {
@@ -35,8 +30,7 @@ public class ScreenViewController implements Initializable {
     }
 
     public void viewPass () {
-        btnView.setOnAction(new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent event) {
+        btnView.setOnAction(event -> {
                 if(btnView.isSelected()){
                     passwordView.setText(password.getText());
                     password.setVisible(false);
@@ -49,7 +43,6 @@ public class ScreenViewController implements Initializable {
                     passwordView.setVisible(false);
                     btnView.setGraphic(new ImageView("/image/eyeOpen.png"));
                 }
-            }
         });
     }
 }
